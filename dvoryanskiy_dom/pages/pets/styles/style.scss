@@ -36,100 +36,112 @@ html {
     background: rgba(41, 41, 41, 0.6);
 }
 
-// .modal {
-//     display: none;
-//     position: absolute;
-//     left: 190px;
-//     top: 50%;
-//     width: 900px;
-//     height: 500px;
-// }
+.modal {
+    display: none;
+    position: fixed;
+    left: calc(50% - 475px);
+    top: calc(50% - 240px);
+    width: 950px;
+    height: 554px;
+}
 
-// .modal-button {
-//     position: absolute;
-//     border: 2px solid $color-primary;
-//     color: #000;
-//     background-color: transparent;
-//     height: 50px;
-//     width: 50px;
-//     align-items: center;
-//     justify-content: center;
-//     display: flex;
-//     top: -45px;
-//     right: -50px;
-//     cursor: pointer;
-// }
+.modal-button {
+    position: absolute;
+    border: 2px solid $color-primary;
+    border-radius: 50px;
+    color: #000;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: -45px;
+    right: -10px;
+    cursor: pointer;
+}
 
-// .modal-button:hover {
-//     background-color: $color-primary-light;
-//     border: 2px solid $color-primary-light;
-// }
+.modal-button:hover {
+    background-color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+}
 
-// .modal-window {
-//     display: flex;
-//     background: #FAFAFA;
-//     width: 900px;
-//     height: 500px;
-// }
+.overflow:hover .modal-button {
+    background-color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+    cursor: pointer;
+}
 
-// .image {
-//     width: 500px;
-//     height: 500px;
-// }
+.modal-window {
+    display: flex;
+    background: #FAFAFA;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
 
-// .content {
-//     display: block;
-//     margin-top: 50px;
-//     margin-left: 29px;
-//     width: 351px;
-//     height: 362px;
-// }
+.image {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
 
-// .pet-name {
-//     font-size: 35px;
-//     color: #000;
-//     margin-top: 0;
-//     margin-bottom: 8px;
-//     text-align: left;
-// }
+.content {
+    display: flex
+    ;
+        margin-top: 50px;
+        margin-left: 29px;
+        width: 351px;
+        height: 362px;
+        flex-direction: column;
+        justify-content: space-between;
+}
 
-// .breed {
-//     margin: 0 1px;
-//     font-size: 20px;
-//     letter-spacing: 0.06em;
-// }
+.pet-name {
+    font-size: 35px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: left;
+}
 
-// .list {
-//     display: flex;
-//     flex-direction: column;
-// }
+.breed {
+    margin: 0 1px;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+}
 
-// .description {
-//     margin: 40px 1px;
-//     font-size: 15px;
-//     line-height: 17.125px;
-//     letter-spacing: 0.06em;
-//     width: 350px;
-// }
+.list {
+    display: flex;
+    flex-direction: column;
+}
 
-// .span-li {
-//     font-weight: bold;
-// }
+.description {
+    margin: 40px 1px;
+    font-size: 15px;
+    line-height: 17.125px;
+    letter-spacing: 0.06em;
+    width: 350px;
+}
 
-// .list-item {
-//     font-family: $font-family-georgia;
-//     font-size: 15px;
-//     line-height: 17px;
-//     letter-spacing: 0.06em;
-//     color: #000000;
-//     margin-bottom: 11px;
-//     margin-top: 0;
-//     margin-left: 15px;
-// }
+.span-li {
+    font-weight: bold;
+}
 
-// .list-item:nth-last-child( {
-//     margin-bottom: 0;
-// }
+.list-item {
+    font-family: var(--font-family-georgia);
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-bottom: 11px;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.list-item:nth-last-child{
+    margin-bottom: 0;
+}
 
 .header-container {
     background-color: #fff;
@@ -197,6 +209,24 @@ nav {
 //     height: 2px;
 //     background: #F1CDB3;
 // }
+
+
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 28px;
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+}
+
+.ad-menu {
+  width: 45px;
+  height: 4px;
+  background-color: #545454;
+}
 
 li {
     display: flex;
@@ -271,7 +301,7 @@ h3 {
     display: block;
     margin-top: 38px;
     margin-bottom: 142px;
-    margin-left: 38.5%;
+    margin-left: calc(50% - 160px);
 }
 
 .arrow {
@@ -342,17 +372,118 @@ button {
     border-radius: 10px 10px 0 0;
 }
 
-.footer-container {
+// .footer-container {
+//     background-image: $background-image;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+// .contacts {
+//     width: 290px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+// }
+
+// .location {
+//     width: 302px;
+// }
+
+// .loc {
+//     float: none;
+//     font-size: 20px;
+//     line-height: 23px;
+//     color: $color-primary;
+//     font-weight: 400, Regular;
+//     font-family: $font-family-georgia;
+//     letter-spacing: 1.2px;
+// }
+
+// .loc1 {
+//     margin-bottom: 40px;
+// }
+
+// .im {
+//     margin-right: 20px;
+// }
+
+// .white {
+//     font-size: 35px;
+//     line-height: 45.5px;
+//     color: #fff;
+//     letter-spacing: 2.25px;
+//     margin-left: 0;
+//     margin-bottom: 40px;
+//     text-align: left;
+//     margin-top: 56px;
+// }
+
+// .white2 {
+//     margin-bottom: 32px;
+// }
+
+// .footer-dog {
+//     margin-top: 40px;
+//     margin-bottom: 0;
+// }
+
+// .im {
+//     background-repeat: no-repeat;
+//     background-position: center center;
+//     float: left;
+// }
+
+// .im1 {
+//     background-image: url(../../../assets/svg/mail.svg);
+//     width: 40px;
+//     height: 32px;
+// }
+
+// .im2 {
+//     background-image: url(../../../assets/svg/phone.svg);
+//     width: 40px;
+//     height: 32px;
+// }
+
+// .im3 {
+//     background-image: url(../../../assets/svg/pin.svg);
+//     min-width: 22px;
+//     height: 32px;
+// }
+
+// .on {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .locy {
+//     letter-spacing: 1.3px;
+// }
+
+// .loc2 {
+//     margin-bottom: 32.5px;
+// }
+
+footer {
+    display: grid;
+    min-height: 350px;
+    width: 100%;
     background-image: $background-image;
     background-size: cover;
+}
+
+.footer-cont {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .contacts {
     width: 290px;
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
     align-items: flex-start;
 }
 
@@ -361,13 +492,10 @@ button {
 }
 
 .loc {
-    float: none;
     font-size: 20px;
-    line-height: 23px;
     color: $color-primary;
-    font-weight: 400, Regular;
     font-family: $font-family-georgia;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.1px;
 }
 
 .loc1 {
@@ -379,14 +507,9 @@ button {
 }
 
 .white {
-    font-size: 35px;
-    line-height: 45.5px;
     color: #fff;
     letter-spacing: 2.25px;
-    margin-left: 0;
-    margin-bottom: 40px;
-    text-align: left;
-    margin-top: 56px;
+    margin-top: 55px;
 }
 
 .white2 {
@@ -395,7 +518,6 @@ button {
 
 .footer-dog {
     margin-top: 40px;
-    margin-bottom: 0;
 }
 
 .im {
@@ -427,10 +549,113 @@ button {
     align-items: center;
 }
 
-.locy {
-    letter-spacing: 1.3px;
-}
-
 .loc2 {
     margin-bottom: 32.5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: calc(50% - 475px);
+    top: calc(50% - 240px);
+    width: 950px;
+    height: 554px;
+}
+
+.modal-button {
+    position: absolute;
+    border: 2px solid $color-primary;
+    border-radius: 50px;
+    color: #000;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: -45px;
+    right: -10px;
+    cursor: pointer;
+}
+
+.modal-button:hover {
+    background-color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+}
+
+.overflow:hover .modal-button {
+    background-color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+    cursor: pointer;
+}
+
+.modal-window {
+    display: flex;
+    background: #FAFAFA;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex
+    ;
+        margin-top: 50px;
+        margin-left: 29px;
+        width: 351px;
+        height: 362px;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.pet-name {
+    font-size: 35px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.breed {
+    margin: 0 1px;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    margin: 40px 1px;
+    font-size: 15px;
+    line-height: 17.125px;
+    letter-spacing: 0.06em;
+    width: 350px;
+}
+
+.span-li {
+    font-weight: bold;
+}
+
+.list-item {
+    font-family: var(--font-family-georgia);
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-bottom: 11px;
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.list-item:nth-last-child{
+    margin-bottom: 0;
 }

@@ -1,0 +1,143 @@
+@media (max-width: 1250px) {
+  .dog {
+    width: 569px;
+    height: 610px;
+  }
+  .card:nth-child(2) {
+    margin-right: 0;
+  }
+  .card:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 1115px) {
+  header {
+    background-size: auto;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-section-div {
+    margin-top: 20px;
+  }
+  .dog {
+    margin: 0;
+  }
+  .donation {
+    flex-direction: column-reverse;
+  }
+  .don-dog {
+    margin: 30px 0;
+  }
+  .cont {
+    margin-top: 40px;
+  }
+  .second-section-div {
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
+  .about-pets {
+    margin-top: 30px;
+  }
+  .about-pets-text {
+    width: 85%;
+  }
+}
+@media (max-width: 895px) {
+  nav > ul {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+@media (max-width: 820px) {
+  .card:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .first-section-div {
+    width: 85%;
+  }
+  .dog {
+    width: 85%;
+    height: auto;
+  }
+  .don-dog {
+    width: 85%;
+  }
+}
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0 7px;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 27px;
+    margin-bottom: 5px;
+  }
+  .logo_subtitle {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .menu {
+    right: 7px;
+  }
+  h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .paragragh_I {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .bt {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .btn {
+    padding: 12px 25px;
+  }
+  h3 {
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .second-section-div {
+    margin-top: 20px;
+  }
+  .paragrahg_II {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .cred-card {
+    width: 280px;
+    margin: 19px auto 0;
+    font-size: 17px;
+  }
+  .btn-o {
+    margin: 30px 0;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .btn-left > .arrow {
+    margin-top: 248px;
+    position: absolute;
+    margin-left: 50px;
+  }
+  .arrow {
+    margin-top: 30px;
+    margin-left: 120px;
+  }
+  .h32 {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=style-resp.css.map */

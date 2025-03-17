@@ -1,0 +1,51 @@
+@media (max-width: 910px) {
+    nav > ul {
+        display: none;
+    }
+    
+    .menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 455px) {
+    .header-container {
+        padding: 0 7px;
+        min-height: 90px;
+    }
+
+    .logo {
+        margin-top: 23px;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 27px;
+        margin-bottom: 5px;
+    }
+
+    .logo_subtitle {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .menu {
+        right: 7px;
+        margin-top: 18px;
+    }
+
+    h3 {
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 110px;
+    }
+
+    .navig {
+        margin-bottom: 0;
+        margin-top: 18px;
+        margin-left: 0;
+        display: flex;
+    }
+}
