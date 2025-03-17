@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.html {
+  overflow: hidden;
+}
+
+body {
+  max-width: 2160px;
+  margin: auto;
+  background-color: #f6f6f6;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.overflow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  top: 0;
+  background: rgba(41, 41, 41, 0.6);
+}
+
+.header-container {
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  min-height: 120px;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #545454;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  margin-top: 35px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 32px;
+  color: #545454;
+  margin-bottom: 10px;
+  margin-top: 1px;
+  letter-spacing: 1.9px;
+}
+
+.logo_subtitle {
+  color: #292929;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.25px;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin-left: auto;
+  margin-top: 13px;
+  margin-right: 22px;
+}
+
+li {
+  display: flex;
+  float: left;
+  margin: 18px;
+  color: #cdcdcd;
+}
+
+.li:hover {
+  color: #292929;
+}
+
+.one {
+  border-bottom: 3px solid #F1CDB3;
+  color: #292929;
+}
+
+.main-cont {
+  background-color: #f6f6f6;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 45.5px;
+  color: #545454;
+  text-align: center;
+  margin-top: 150px;
+  letter-spacing: 2.15px;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 20px;
+  color: #545454;
+  margin-top: 25px;
+  letter-spacing: 1.5px;
+}
+
+.learn-more {
+  padding: 12px 27px;
+  background-color: transparent;
+  border: 2px solid #F1CDB3;
+  display: block;
+  margin: 30px auto;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navig {
+  display: block;
+  margin-top: 38px;
+  margin-bottom: 142px;
+  margin-left: 38.5%;
+}
+
+.arrow {
+  width: 52px;
+  height: 52px;
+  font-size: 20px;
+  border: 2px solid #F1CDB3;
+  justify-content: center;
+  float: left;
+  margin: 10px;
+  background-color: #FDDCC4;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: #F1CDB3;
+}
+
+.arrow:disabled {
+  border: 2px solid #cdcdcd;
+  color: #cdcdcd;
+  background-color: transparent;
+}
+
+.arrow:nth-child(3) {
+  background-color: #F1CDB3;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  color: #292929;
+  font-size: 17px;
+  line-height: 22.1px;
+}
+
+.cards-cont {
+  max-width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 31.5px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  justify-content: space-evenly;
+}
+
+.card:hover .learn-more {
+  background-color: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+.card {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.img-card {
+  border-radius: 10px 10px 0 0;
+}
+
+.footer-container {
+  background-image: url(../../../assets/images/start-screen-gradient-background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.location {
+  width: 302px;
+}
+
+.loc {
+  float: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #F1CDB3;
+  font-weight: 400, Regular;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1.2px;
+}
+
+.loc1 {
+  margin-bottom: 40px;
+}
+
+.im {
+  margin-right: 20px;
+}
+
+.white {
+  font-size: 35px;
+  line-height: 45.5px;
+  color: #fff;
+  letter-spacing: 2.25px;
+  margin-left: 0;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-top: 56px;
+}
+
+.white2 {
+  margin-bottom: 32px;
+}
+
+.footer-dog {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.im {
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+}
+
+.im1 {
+  background-image: url(../../../assets/svg/mail.svg);
+  width: 40px;
+  height: 32px;
+}
+
+.im2 {
+  background-image: url(../../../assets/svg/phone.svg);
+  width: 40px;
+  height: 32px;
+}
+
+.im3 {
+  background-image: url(../../../assets/svg/pin.svg);
+  min-width: 22px;
+  height: 32px;
+}
+
+.on {
+  display: flex;
+  align-items: center;
+}
+
+.locy {
+  letter-spacing: 1.3px;
+}
+
+.loc2 {
+  margin-bottom: 32.5px;
+}/*# sourceMappingURL=style.css.map */

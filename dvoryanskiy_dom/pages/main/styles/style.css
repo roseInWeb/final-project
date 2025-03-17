@@ -1,0 +1,438 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 2160px;
+  margin: auto;
+}
+
+.overflow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  top: 0;
+  background: rgba(41, 41, 41, 0.6);
+}
+
+header {
+  background-image: url(../../../assets/images/start-screen-gradient-background.jpg);
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  padding: 0 25px 20px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #cdcdcd;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 35.2px;
+  color: #F1CDB3;
+  margin-bottom: 10px;
+  margin-top: 21px;
+  letter-spacing: 1.8px;
+}
+
+.logo_subtitle {
+  font-size: 13px;
+  line-height: 14.95px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  margin-left: 5px;
+}
+
+nav {
+  margin-left: auto;
+  padding-top: 7px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  float: left;
+  margin: 17.5px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.li:hover {
+  color: #fafafa;
+}
+
+.one {
+  border-bottom: 3px solid #F1CDB3;
+  color: #fafafa;
+}
+
+.first-section {
+  height: 788px;
+  background-image: url(../../../assets/images/start-screen-gradient-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-section-div {
+  float: left;
+  width: 460px;
+  margin: 185px 30px 0 40px;
+}
+
+h2 {
+  font-size: 44px;
+  color: #fff;
+}
+
+.paragragh_I {
+  font-size: 15px;
+  line-height: 24px;
+  color: #cdcdcd;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+
+.btn-parI {
+  margin-top: 42px;
+  letter-spacing: 1px;
+}
+
+.dog {
+  padding-top: 60px;
+  margin-left: auto;
+  display: flex;
+}
+
+.bt {
+  color: #292929;
+  font-size: 17px;
+  line-height: 22.1px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn {
+  padding: 15px 45px;
+  background-color: #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FDDCC4;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 45.5px;
+  color: #545454;
+}
+
+.about-pets-text {
+  width: 40%;
+}
+
+.paragrahg_II {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h31 {
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+.second-section-div {
+  margin: 60px 0 40px 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section3 {
+  background-color: #f6f6f6;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.h32,
+.h33 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  letter-spacing: 2.1px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+.cards-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  padding: 21.5px 17.5px;
+  background-color: transparent;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  cursor: pointer;
+}
+
+.btn-right > .arrow {
+  margin-left: 122px;
+}
+
+.btn-left > .arrow {
+  margin-right: 122px;
+}
+
+.learn-more {
+  padding: 12px 27px;
+  background-color: transparent;
+  border: 2px solid #F1CDB3;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+.btn-o {
+  margin: 60px;
+}
+
+.href {
+  color: #292929;
+  font-size: 17px;
+  margin-left: 2px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 10px;
+  width: 270px;
+  height: 435px;
+}
+
+.card:nth-child(2) {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.card:hover {
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.card:hover .learn-more {
+  background-color: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+.img-card {
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 20px;
+  line-height: 22.72px;
+  color: #545454;
+  margin: 30px 0;
+  letter-spacing: 1.3px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#help {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bloc-help {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 120px;
+  column-gap: 120px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #545454;
+  margin-top: 30px;
+  letter-spacing: 1.15px;
+}
+
+.pet-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.donation {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.h34 {
+  letter-spacing: 2.1px;
+  margin: 0;
+}
+
+.don-dog {
+  margin: 60px 0;
+}
+
+.cred-card {
+  color: #000000;
+  background-color: #F1CDB3;
+  width: 330px;
+  height: 43px;
+  border-radius: 9px;
+  display: flex;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  letter-spacing: 1.2px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cred-card:hover {
+  background-color: #FDDCC4;
+}
+
+.cred-cardi {
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  display: grid;
+  min-height: 350px;
+  width: 100%;
+  background-image: url(../../../assets/images/start-screen-gradient-background.jpg);
+  background-size: cover;
+}
+
+.footer-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacts {
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.location {
+  width: 302px;
+}
+
+.loc {
+  font-size: 20px;
+  color: #F1CDB3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1.1px;
+}
+
+.loc1 {
+  margin-bottom: 40px;
+}
+
+.im {
+  margin-right: 20px;
+}
+
+.white {
+  color: #fff;
+  letter-spacing: 2.25px;
+  margin-top: 55px;
+}
+
+.white2 {
+  margin-bottom: 32px;
+}
+
+.footer-dog {
+  margin-top: 40px;
+}
+
+.im {
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+}
+
+.im1 {
+  background-image: url(../../../assets/svg/mail.svg);
+  width: 40px;
+  height: 32px;
+}
+
+.im2 {
+  background-image: url(../../../assets/svg/phone.svg);
+  width: 40px;
+  height: 32px;
+}
+
+.im3 {
+  background-image: url(../../../assets/svg/pin.svg);
+  min-width: 22px;
+  height: 32px;
+}
+
+.on {
+  display: flex;
+  align-items: center;
+}
+
+.loc2 {
+  margin-bottom: 32.5px;
+}/*# sourceMappingURL=style.css.map */
