@@ -44,39 +44,6 @@ const pets = [
       "parasites": ["none"]
     },
     {
-      "name": "Katrine",
-      "img": "../../assets/images/pets-katrine.jpg",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.",
-      "age": "6 months",
-      "inoculations": ["panleukopenia"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Timmy",
-      "img": "../../assets/images/pets-timmy.jpg",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.",
-      "age": "2 years 3 months",
-      "inoculations": ["calicivirus", "viral rhinotracheitis"],
-      "diseases": ["kidney stones"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Freddie",
-      "img": "../../assets/images/pets-freddie.jpg",
-      "type": "Cat",
-      "breed": "British Shorthair",
-      "description": "Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.",
-      "age": "2 months",
-      "inoculations": ["rabies"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
       "name": "Charly",
       "img": "../../assets/images/pets-charly.jpg",
       "type": "Dog",
