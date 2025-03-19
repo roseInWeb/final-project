@@ -12,10 +12,6 @@ $color-grey: #cdcdcd;
     transition: 0.5s;
 }
 
-.html {
-    overflow: hidden;
-}
-
 body {
     max-width: 2160px;
     margin: auto;
@@ -25,15 +21,6 @@ body {
 html {    
     scroll-behavior: smooth;
     overflow-x: hidden;
-}
-
-.overflow {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    right: -100%;
-    top: 0;
-    background: rgba(41, 41, 41, 0.6);
 }
 
 .modal {
@@ -87,14 +74,13 @@ html {
 }
 
 .content {
-    display: flex
-    ;
-        margin-top: 50px;
-        margin-left: 29px;
-        width: 351px;
-        height: 362px;
-        flex-direction: column;
-        justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 29px;
+    width: 351px;
+    height: 362px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pet-name {
@@ -156,7 +142,6 @@ html {
 a {
     text-decoration: none;
     color: #545454;
-    // font-size: 15px;
     line-height: 24px;
     font-family: $font-family-arial;
 }
@@ -189,28 +174,6 @@ nav {
     margin-right: 22px;
 }
 
-// .menu {
-//     display: none;
-//     flex-direction: column;
-//     justify-content: space-between;    
-//     width: 30px;
-//     height: 22px;
-//     cursor: pointer;
-//     z-index: 5;
-//     position: relative;
-// }
-
-// .menu:hover .ad-menu {
-//     background-color: #fddcc4;
-// }
-
-// .ad-menu {
-//     width: 30px;
-//     height: 2px;
-//     background: #F1CDB3;
-// }
-
-
 .menu {
     display: none;
     flex-direction: column;
@@ -219,25 +182,22 @@ nav {
     margin-top: 28px;
     position: fixed;
     right: 20px;
+    z-index: 3;
     cursor: pointer;
 }
 
 .ad-menu {
-  width: 45px;
-  height: 4px;
-  background-color: #545454;
+    width: 45px;
+    height: 4px;
+    background-color: #545454;
+    z-index: 3;
 }
 
 li {
     display: flex;
-    // list-style: none;
-    // flex-wrap: nowrap;
     float: left;
     margin: 18px;
     color: $color-grey;
-    // font-size: 15px;
-    // line-height: 24px;
-    // font-family: $font-family-arial;
 }
 
 .li:hover {
@@ -252,23 +212,6 @@ li {
 .main-cont {
     background-color: #f6f6f6;
 }
-
-// .btn {
-//     flex-direction: column;
-//     align-items: center;
-//     padding: 12px 42px;
-//     background-color: $color-primary;
-//     border: 3px solid $color-primary;
-//     border-radius: 100px;
-//     color: #292929;
-//     font-size: 17px;
-//     line-height: 22.1px;
-//     cursor: pointer;
-// }
-
-// .btn:hover {
-//     background-color: #fff;
-// }
 
 h3 {
     font-size: 35px;
@@ -371,99 +314,6 @@ button {
 .img-card {
     border-radius: 10px 10px 0 0;
 }
-
-// .footer-container {
-//     background-image: $background-image;
-//     background-size: cover;
-//     display: flex;
-//     justify-content: space-around;
-// }
-
-// .contacts {
-//     width: 290px;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: flex-start;
-// }
-
-// .location {
-//     width: 302px;
-// }
-
-// .loc {
-//     float: none;
-//     font-size: 20px;
-//     line-height: 23px;
-//     color: $color-primary;
-//     font-weight: 400, Regular;
-//     font-family: $font-family-georgia;
-//     letter-spacing: 1.2px;
-// }
-
-// .loc1 {
-//     margin-bottom: 40px;
-// }
-
-// .im {
-//     margin-right: 20px;
-// }
-
-// .white {
-//     font-size: 35px;
-//     line-height: 45.5px;
-//     color: #fff;
-//     letter-spacing: 2.25px;
-//     margin-left: 0;
-//     margin-bottom: 40px;
-//     text-align: left;
-//     margin-top: 56px;
-// }
-
-// .white2 {
-//     margin-bottom: 32px;
-// }
-
-// .footer-dog {
-//     margin-top: 40px;
-//     margin-bottom: 0;
-// }
-
-// .im {
-//     background-repeat: no-repeat;
-//     background-position: center center;
-//     float: left;
-// }
-
-// .im1 {
-//     background-image: url(../../../assets/svg/mail.svg);
-//     width: 40px;
-//     height: 32px;
-// }
-
-// .im2 {
-//     background-image: url(../../../assets/svg/phone.svg);
-//     width: 40px;
-//     height: 32px;
-// }
-
-// .im3 {
-//     background-image: url(../../../assets/svg/pin.svg);
-//     min-width: 22px;
-//     height: 32px;
-// }
-
-// .on {
-//     display: flex;
-//     align-items: center;
-// }
-
-// .locy {
-//     letter-spacing: 1.3px;
-// }
-
-// .loc2 {
-//     margin-bottom: 32.5px;
-// }
 
 footer {
     display: grid;
@@ -604,14 +454,13 @@ footer {
 }
 
 .content {
-    display: flex
-    ;
-        margin-top: 50px;
-        margin-left: 29px;
-        width: 351px;
-        height: 362px;
-        flex-direction: column;
-        justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 29px;
+    width: 351px;
+    height: 362px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pet-name {

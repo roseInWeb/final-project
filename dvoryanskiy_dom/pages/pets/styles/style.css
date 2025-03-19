@@ -5,10 +5,6 @@
   transition: 0.5s;
 }
 
-.html {
-  overflow: hidden;
-}
-
 body {
   max-width: 2160px;
   margin: auto;
@@ -18,15 +14,6 @@ body {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
-
-.overflow {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  right: -100%;
-  top: 0;
-  background: rgba(41, 41, 41, 0.6);
 }
 
 .modal {
@@ -188,6 +175,7 @@ nav {
   margin-top: 28px;
   position: fixed;
   right: 20px;
+  z-index: 3;
   cursor: pointer;
 }
 
@@ -195,6 +183,7 @@ nav {
   width: 45px;
   height: 4px;
   background-color: #545454;
+  z-index: 3;
 }
 
 li {

@@ -46,11 +46,38 @@
   }
 }
 @media (max-width: 895px) {
-  nav > ul {
-    display: none;
-  }
   .menu {
     display: flex;
+  }
+  nav {
+    margin-left: auto;
+    margin-right: 53px;
+  }
+  ul {
+    display: block;
+    position: fixed;
+    background-color: rgba(41, 41, 41, 0.9647058824);
+    width: 320px;
+    height: 823px;
+    z-index: 2;
+    right: -320px;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 100px;
+    flex-direction: column;
+    text-align: center;
+  }
+  li {
+    display: block;
+    flex-wrap: wrap;
+    width: 243px;
+    text-align: center;
+    margin: 32.5px 45px;
+  }
+  .li {
+    font-size: 32px;
   }
 }
 @media (max-width: 820px) {
