@@ -1,59 +1,59 @@
 const pets = [
-    {
-      "name": "Jennifer",
-      "img": "../../assets/images/pets-jennifer.jpg",
-      "type": "Dog",
-      "breed": "Labrador",
-      "description": "Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.",
-      "age": "2 months",
-      "inoculations": ["none"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Sophia",
-      "img": "../../assets/images/pets-sophia.jpg",
-      "type": "Dog",
-      "breed": "Shih tzu",
-      "description": "Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.",
-      "age": "1 month",
-      "inoculations": ["parvovirus"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Woody",
-      "img": "../../assets/images/pets-woody.jpg",
-      "type": "Dog",
-      "breed": "Golden Retriever",
-      "description": "Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.",
-      "age": "3 years 6 months",
-      "inoculations": ["adenovirus", "distemper"],
-      "diseases": ["right back leg mobility reduced"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Scarlett",
-      "img": "../../assets/images/pets-scarlet.jpg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.",
-      "age": "3 months",
-      "inoculations": ["parainfluenza"],
-      "diseases": ["none"],
-      "parasites": ["none"]
-    },
-    {
-      "name": "Charly",
-      "img": "../../assets/images/pets-charly.jpg",
-      "type": "Dog",
-      "breed": "Jack Russell Terrier",
-      "description": "This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.",
-      "age": "8 years",
-      "inoculations": ["bordetella bronchiseptica", "leptospirosis"],
-      "diseases": ["deafness", "blindness"],
-      "parasites": ["lice", "fleas"]
-    }
+  {
+    "name": "Дженнифер",
+    "img": "../../assets/images/pets-jennifer.jpg",
+    "type": "Собака",
+    "breed": "Лабрадор-ретривер",
+    "description": "Дженнифер — милая двухмесячная лабрадорша, которая терпеливо ждет, когда найдет новый дом навсегда. Эта девочка очень любит выходить на улицу, чтобы побегать и поиграть, но не колеблясь будет играть дома, если у нее есть ее любимые игрушки.",
+    "age": "2 месяца",
+    "inoculations": ["нет"],
+    "diseases": ["нет"],
+    "parasites": ["нет"]
+  },
+  {
+    "name": "София",
+    "img": "../../assets/images/pets-sophia.jpg",
+    "type": "Собака",
+    "breed": "Ши-тцу",
+    "description": "Меня зовут София, и я ищу свой постоянный дом, чтобы прожить лучшие годы своей жизни. Я полна энергии. Каждый день я учусь чему-то новому, например, как ходить на поводке, ходить в горшок на улице, лаять и играть с игрушками, но мне все еще нужна практика.",
+    "age": "1 месяц",
+    "inoculations": ["парвовирус"],
+    "diseases": ["нет"],
+    "parasites": ["нет"]
+  },
+  {
+    "name": "Вуди",
+    "img": "../../assets/images/pets-woody.jpg",
+    "type": "Собака",
+    "breed": "Золотистый ретривер",
+    "description": "Вуди — симпатичный мальчик 3,5 лет. Вуди знает основные команды и является умным щенком. Поскольку он сильнее, он многому научится во время вашей дрессировки. Вуди будет счастливее, когда найдет новую семью, которая сможет проводить с ним много времени.",
+    "age": "3 года 6 месяцев",
+    "inoculations": ["аденовирус"],
+    "diseases": ["подвижность правой задней ноги снижена"],
+    "parasites": ["нет"]
+  },
+  {
+    "name": "Скарлетт",
+    "img": "../../assets/images/pets-scarlet.jpg",
+    "type": "Собака",
+    "breed": "Джек-рассел-терьер",
+    "description": "Скарлетт — счастливая, игривая девочка, которая заставит вас смеяться и улыбаться. Она быстро привязывается и станет преданным компаньоном для одинокого человека или прекрасной семейной собакой, так как она любит проводить время со своим хозяином.",
+    "age": "3 месяцев",
+    "inoculations": ["парагрипп"],
+    "diseases": ["нет"],
+    "parasites": ["нет"]
+  },
+  {
+    "name": "Чарли",
+    "img": "../../assets/images/pets-charly.jpg",
+    "type": "Собака",
+    "breed": "Джек-рассел-терьер",
+    "description": "Этому милому мальчику, Чарли, три года, и он любит взрослых и детей. Он не любит многих других собак, поэтому ему лучше всего подойдет дом с одной собакой. У Чарли много энергии, он любит бегать и играть. Мы думаем, что огороженный двор сделает его очень счастливым.",
+    "age": "3 года",
+    "inoculations": ["бордетелла бронхисептика", "лептоспироз"],
+    "diseases": ["глухота", "слепота"],
+    "parasites": ["вши", "блохи"]
+  }
 ];
 const adMemuBtn = document.querySelector('.menu');
 const html = document.querySelector('html');
@@ -76,78 +76,76 @@ function adMenu() {
 adMemuBtn.addEventListener('click', adMenu);
 menuLi.forEach((el) => el.addEventListener('click', adMenu));
 
-// const modalWindow = document.querySelector('.modal');
-// const modalBtn = document.querySelector('.modal-button');
-// let card = document.querySelectorAll('.card');
-// const petName = document.querySelector('.pet-name');
-// const petImage = document.querySelector('.image');
-// const petAge = document.querySelector('.span-li-age');
-// const petInocul = document.querySelector('.span-li-ino');
-// const petDis = document.querySelector('.span-li-dis');
-// const petParas = document.querySelector('.span-li-par');
-// const petBreed = document.querySelector('.breed');
-// const petDescription = document.querySelector('.description');
+const modalWindow = document.querySelector('.modal');
+const modalBtn = document.querySelector('.modal-button');
+let card = document.querySelectorAll('.card');
+const petName = document.querySelector('.pet-name');
+const petImage = document.querySelector('.image');
+const petAge = document.querySelector('.span-li-age');
+const petInocul = document.querySelector('.span-li-ino');
+const petDis = document.querySelector('.span-li-dis');
+const petParas = document.querySelector('.span-li-par');
+const petBreed = document.querySelector('.breed');
+const petDescription = document.querySelector('.description');
 
-// function openModal() {
-//     const thisCard = this.children[1].textContent;
-//     for (let i = 0; i < pets.length; i++) {
-//         if (thisCard === pets[i].name) {
-//             modalWindow.style.display = 'block';
-//             petName.innerHTML = `${pets[i].name}`;
-//             petImage.src = `${pets[i].img}`;
-//             petBreed.innerHTML = `${pets[i].breed}`;
-//             petDescription.innerHTML = `${pets[i].description}`;
-//             petAge.innerHTML = `${pets[i].age}`;
-//             petParas.innerHTML = `${pets[i].parasites}`;
-//             petDis.innerHTML = `${pets[i].diseases}`;
-//             petInocul.innerHTML = `${pets[i].inoculations}`;
-//         }
-//     }
-//     overflow.style.right = '0';
-//     html.classList.add('html');
-// }
-// card.forEach((el) => el.addEventListener('click', openModal));
+function openModal() {
+    const thisCard = this.children[1].textContent;
+    for (let i = 0; i < pets.length; i++) {
+        if (thisCard === pets[i].name) {
+            console.log(pets[i]);
+            modalWindow.style.display = 'block';
+            petName.innerHTML = `${pets[i].name}`;
+            petImage.src = `${pets[i].img}`;
+            petBreed.innerHTML = `${pets[i].breed}`;
+            petDescription.innerHTML = `${pets[i].description}`;
+            petAge.innerHTML = `${pets[i].age}`;
+            petParas.innerHTML = `${pets[i].parasites}`;
+            petDis.innerHTML = `${pets[i].diseases}`;
+            petInocul.innerHTML = `${pets[i].inoculations}`;
+        }
+    }
+    console.log('lllllll');
+}
+card.forEach((el) => el.addEventListener('click', openModal));
 
-// function closeModal() {
-//     modalWindow.style.display = 'none';
-//     overflow.style.right = '-100%';
-//     html.classList.remove('html');
-// }
-// overflow.addEventListener('click', closeModal);
-// modalBtn.addEventListener('click', closeModal);
+function closeModal() {
+    modalWindow.style.display = 'none';
+}
+modalBtn.addEventListener('click', closeModal);
 
-// const cardCont = document.querySelector('.cards-cont');
-// const leftBtn = document.querySelector('.btn-left-one');
-// const rigthBtn = document.querySelector('.btn-left-two');
+const cardCont = document.querySelector('.cards-cont');
+const leftBtn = document.querySelector('.btn-left');
+const rigthBtn = document.querySelector('.btn-right');
+let c = 0
 
-// leftBtn.addEventListener('click', () => {
-//     cardCont.innerHTML = '';
-//     pets.sort(() => Math.random() - 0.5);
-//     for (let i = 5; i < pets.length; i++) {
-//         cardCont.innerHTML += `
-//         <div class="card">
-//             <img src="${pets[i].img}" alt="" class="img-card">
-//             <div class="name">${pets[i].name}</div>                    
-//             <button class="learn-more nans">Learn more</button>
-//         </div>
-//         `;
-//     }
-//     card = document.querySelectorAll('.card');
-//     card.forEach((el) => el.addEventListener('click', openModal));
-// });
+leftBtn.addEventListener('click', () => {
+    cardCont.innerHTML = '';
+    for (let i = c; i < c + 3; i++) {
+        cardCont.innerHTML += `
+        <div class="card">
+            <img src="${pets.at(i % 5).img}" alt="" class="img-card">
+            <div class="name">${pets.at(i % 5).name}</div>                    
+            <button class="learn-more nans">Узнать больше</button>
+        </div>
+        `;
+    }
+    c -= 1
+    card = document.querySelectorAll('.card');
+    card.forEach((el) => el.addEventListener('click', openModal));
+});
 
-// rigthBtn.addEventListener('click', () => {
-//     cardCont.innerHTML = '';
-//     pets.sort(() => Math.random() - 0.5);
-//     for (let i = 5; i < pets.length; i++) {
-//         cardCont.innerHTML += `
-//         <div class="card">
-//             <img src="${pets[i].img}" alt="" class="img-card">
-//             <div class="name">${pets[i].name}</div>                    
-//             <button class="learn-more nans">Learn more</button>
-//         </div>
-//         `;
-//     }
-//     card = document.querySelectorAll('.card');
-//     card.forEach((el) => el.addEventListener('click', openModal));
-// });
+rigthBtn.addEventListener('click', () => {
+  cardCont.innerHTML = '';
+  for (let i = c; i < c + 3; i++) {
+    cardCont.innerHTML += `
+      <div class="card">
+          <img src="${pets.at(i % 5).img}" alt="" class="img-card">
+          <div class="name">${pets.at(i % 5).name}</div>                    
+          <button class="learn-more nans">Узнать больше</button>
+      </div>
+    `;
+  }
+  c += 1
+  card = document.querySelectorAll('.card');
+  card.forEach((el) => el.addEventListener('click', openModal));
+});
